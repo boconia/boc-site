@@ -1,69 +1,121 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Beacon of Civilization – BOC</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>BOC — Beacon of Civilization</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(ellipse at center, #000000 0%, #0a0a0a 100%);
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 120px 30px 80px;
+      background: url('assets/boc_logo.png') no-repeat center top 40px;
+      background-size: 128px;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      color: #f5f5f5;
+    }
+    h2 {
+      font-weight: normal;
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    section {
+      max-width: 720px;
+      margin: auto;
+      padding: 40px 30px;
+    }
+    .hero {
+      text-align: center;
+      font-size: 1.2em;
+      color: #ddd;
+      font-style: italic;
+    }
+    .quote {
+      margin-top: 30px;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      border-left: 3px solid #FFD700;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #FFD700;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .qr img {
+      width: 160px;
+      height: 160px;
+    }
+    .qr-text {
+      margin-top: 15px;
+      color: #aaa;
+      font-size: 0.95em;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="logo">BOC</div>
-      <ul>
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#whitepaper">Whitepaper</a></li>
-        <li><a href="#loan">Trust Loan</a></li>
-        <li><a href="#buy">Join the Flame</a></li>
-      </ul>
-    </nav>
+    <h1>Beacon of Civilization</h1>
+    <h2>A spark for those who still believe.</h2>
   </header>
-
-  <section id="hero">
-    <div class="container">
-      <h1>Beacon of Civilization</h1>
-      <h2>A spark for those who still believe.</h2>
-      <p>We didn’t build for hype.<br>
-      We built for memory, for meaning, and for the days after the flood.</p>
-      <p><strong>BOC is not a coin. It’s a stand.</strong><br>
-      A stand for truth, dignity, and those who still carry the torch.</p>
+  <section class="hero">
+    <p>We’re not fighting the dark — we’re building the light.<br/>
+    The future is not defended by resistance, but defined by creation.</p>
+    <div class="quote">
+      BOC is not a token of protest — it’s a token of possibility.<br/>
+      A symbol of dignity, freedom, and the untold stories of a better tomorrow.
     </div>
   </section>
-
-  <section id="mission">
-    <div class="container">
-      <h3>We’re not fighting the dark — we’re building the light.</h3>
-      <p>BOC is a decentralized, uncensored token designed to empower, not divide — to shine light, not throw shade.</p>
-      <p>Because in an age where silence is safe and obedience is rewarded, choosing to build something better is the boldest act of all.</p>
-    </div>
+  <section>
+    <p>
+      BOC is a decentralized, uncensored token designed to empower, not divide — to shine light, not throw shade.
+      In an age where silence is safe and obedience is rewarded, choosing to build something better is the boldest act of all.
+    </p>
+    <p>
+      We didn’t build for hype. We built for memory, for meaning, and for the days after the flood.
+      BOC is not a coin. It’s a stand — for truth, for dignity, for those who still carry the torch.
+    </p>
   </section>
-
-  <section id="whitepaper">
-    <div class="container">
-      <h3>Whitepaper</h3>
-      <p>Read the full vision behind BOC. This is not just a token. It’s a map to a possible tomorrow.</p>
-      <a href="assets/whitepaper/whitepaper.pdf" target="_blank" class="button">📄 View Whitepaper</a>
-    </div>
+  <section class="cta">
+    <a href="assets/whitepaper/whitepaper.pdf" target="_blank">Read the Whitepaper</a>
+    <a href="https://twitter.com/BOC_Project" target="_blank">Join the Mission</a>
   </section>
-
-  <section id="loan">
-    <div class="container">
-      <h3>Civic Trust Loan</h3>
-      <p>Our lending system is not about interest, but trust. Borrow BOC, backed not by your wealth — but your willingness to stand.</p>
-    </div>
+  <section class="qr">
+    <h2>Join the Flame</h2>
+    <p>Acquire BOC — not because it's hype, but because you still believe.</p>
+    <img src="assets/qr.png" alt="Buy BOC QR Code" />
+    <p class="qr-text">You don’t want to miss this.<br/><em>A future of infinite possibility.</em></p>
   </section>
-
-  <section id="buy">
-    <div class="container">
-      <h3>Join the Flame</h3>
-      <p>Acquire BOC — not because it’s hype, but because you still believe.</p>
-      <img src="assets/qr.png" alt="QR Code" style="max-width:180px; margin: 20px auto;" />
-      <a href="https://raydium.io/swap/?inputMint=99oAQkuwi9BcRX2xXzqLTgKbmaZex63tmJAcnDGhDDJQ&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=0" class="button">🔥 Buy BOC on Raydium</a>
-    </div>
-  </section>
-
   <footer>
-    <p>“NICE. I AM HERE. I RESTART THE WORLD.”</p>
+    &copy; 2025 BOC. All rights reserved.
   </footer>
 </body>
 </html>
